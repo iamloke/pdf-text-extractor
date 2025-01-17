@@ -10,6 +10,6 @@ def extract_text(pdf_path):
     return text
 
 if __name__ == "__main__":
-    text = extract_text("input/example.pdf")
+    text = extract_text("input/example.pdf") # give actual file path
     with open("output/extracted_text.txt", "w") as f:
         f.write(text)
